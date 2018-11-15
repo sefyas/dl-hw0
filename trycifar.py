@@ -10,8 +10,8 @@ def neural_net():
     return make_net(l)
 
 print("loading data...")
-train = load_image_classification_data("cifar/cifar.train", "cifar/cifar.labels")
-test  = load_image_classification_data("cifar/cifar.test", "cifar/cifar.labels")
+train = load_image_classification_data(b"cifar/cifar.train", b"cifar/cifar.labels")
+test  = load_image_classification_data(b"cifar/cifar.test", b"cifar/cifar.labels")
 print("done")
 print
 

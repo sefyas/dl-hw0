@@ -102,6 +102,7 @@ void update_connected_layer(layer l, float rate, float momentum, float decay)
 {
     // TODO
     // YSS DONE! 
+    // TO-DO consider applying momentum to biases; it probably works without it too
     axpy_matrix(-1 * decay, l.w, l.dw);
     axpy_matrix(rate, l.dw, l.w);
     scal_matrix(momentum, l.dw);

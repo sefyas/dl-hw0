@@ -10,8 +10,8 @@ def neural_net():
     return make_net(l)
 
 print("loading data...")
-train = load_image_classification_data("mnist/mnist.train", "mnist/mnist.labels")
-test  = load_image_classification_data("mnist/mnist.test", "mnist/mnist.labels")
+train = load_image_classification_data(b"mnist/mnist.train", b"mnist/mnist.labels")
+test  = load_image_classification_data(b"mnist/mnist.test", b"mnist/mnist.labels")
 print("done")
 print
 
