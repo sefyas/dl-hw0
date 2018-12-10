@@ -8,6 +8,8 @@
 .fuse*
 libuwnet*
 uwnet
+submit.tar.gz
+.gitignore
 
 # OS Generated #
 .DS_Store*
